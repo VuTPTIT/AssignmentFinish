@@ -5,6 +5,7 @@ body {
 }
 .menuandname {
 	background-image: url('./botanical.jpg');
+	background-repeat: no-repeat;
 	height: 1000px;
 	width: auto;
 	margin: 0;
