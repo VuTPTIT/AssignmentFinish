@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./demo.css">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <style media="screen">
+      body { color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  <body>
+
+  <div class="main">
+
+    <div class="menuandname">
+      <div class="menumain">
+        <ul class="menu">
+            <li class="menu1">Home
+                <ul class="option1">
+                  <li>Home 1</li>
+                  <li>Home 2</li>
+                  <li>Home 3</li>
+                </ul>
+            </li>
+            <li class="menu2">Pages
+              <ul class="option2">
+                <li>Contants</li>
+                <li>Blog</li>
+                <li>Team</li>
+              </ul>
+            </li>
+            <li class="menu3">Services
+              <ul class="option3">
+                <li>Web Development</li>
+                <li>App Development</li>
+                <li>SEO Opimization</li>
+              </ul>
+            </li>
+            <li class="menu4">GDPR
+              <ul class="option4">
+                <li>Privacy policy</li>
+                <li>Terms of Use</li>
+              </ul>
+            </li>
+            <li class="menu5">Contants</li>
+            <li class="search"><a href="#"><i class="fas fa-search"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="order">
+        <div class="buttonorder">
+          <div class="buttontext">Web studio with ambition</div>
+          <button class="orderbutton">ORDER NOW</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="centerbox">
+      <div class="enterbox columnn">
+                  <div class="centerrow">
+                      <div class="icon center">
+                          <i class="fas fa-wrench fa-3x"></i>
+                      </div>
+                      <div class="titlecenter">
+                          <h2>Warranty</h2>
+                      </div>
+                      <div class="textcenter">
+                          We provide 1 year warranty support. The fulfillment of our obligations has been repeatedly confirmed by the feedback of our customers
+                      </div>
+                  </div>
+                  <div class="centerrow">
+                      <div class="icon center">
+                          <i class="far fa-lightbulb fa-3x"></i>
+                      </div>
+                      <div class="titlecenter">
+                          <h2>Creative</h2>
+                      </div>
+                      <div class="textcenter">
+                          We guarantee an exclusive design. We do our best to attract the attention of our customers using the world’s leading strategies
+                      </div>
+                  </div>
+                  <div class="centerrow">
+                      <div class="icon center">
+                        <i class="fab fa-teamspeak fa-3x"></i>
+                      </div>
+                      <div class="titlecenter">
+                          <h2>Approach</h2>
+                      </div>
+                      <div class="textcenter">
+                         Starting with negotiations and until the completion of the process, you communicate with a personal project manager
+                      </div>
+                 </div>
+          </div>
+    </div>
+    
+    <div class="layout">
+      <div class="row1">
+        <div class="titlerow">
+          <strong class="jl">About us</strong>
+          <div class="title1">We're more than a web studio</div>
+        </div>
+        <div class="text1">We are a strong and worthy competitor in the field of web development. We work together with a client as a team. This allows us to identify customer needs and offer the best solution. A team of diverse specialists works on each project.</div>
+        <div class="score">
+          <div class="score1">
+            <strong class="kl">Regular customers</strong>
+            <div class="persent1a">60%</div>
+          </div>
+          <div class="border1">
+            <div class="border1a"></div>
+          </div>
+          <div class="score1">
+            <strong class="kl">Projects in work</strong>
+            <div class="persent1b">45%</div>
+          </div>
+          <div class="border1">
+            <div class="border1b"></div>
+          </div>
+          <div class="score1">
+            <strong class="kl">Successful projects</strong>
+            <div class="persent1c">100%</div>
+          </div>
+          <div class="border1">
+            <div class="border1c"></div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row2">
+        <iframe width="585" height="480" src="Minimal.mp4"></iframe>
+      </div>
+    </div>
+    
+    <div class="frames">
+      <div class="framescolumn">
+              <div class="column1 column">
+                  <div class="inrow">
+                      <div class="iconframes">
+                          <i class="fas fa-laptop-code fa-3x"></i>
+                      </div>
+                      <div class="title">
+                          <h2>Website development</h2>
+                      </div>
+                      <div class="text">
+                          We wil create an action site with the necessary set of information blocks to attract the attention and interest of your client
+                      </div>
+                      <div class="arrow">
+                          <a href="#"><i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="inrow">
+                      <div class="iconframes">
+                          <i class="fas fa-rocket fa-3x"></i></div>
+                      <div class="title">
+                          <h2>Image building</h2>
+                      </div>
+                      <div class="text">
+                          We wil draw a stylish logo reflecting the idea ofyourbrand or corporate identify for confident sefl-presentation to customers
+                      </div>
+                      <div class="arrow">
+                          <a href="#"><i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                  <div class="inrow">
+                      <div class="iconframes">
+                        <i class="fas fa-users-cog fa-3x"></i>
+                      </div>
+                      <div class="title">
+                          <h2>Website support</h2>
+                      </div>
+                      <div class="text">
+                          We'll introduce new blocks to the site and the functionality as it develops, we will help with updating content in the active sections
+                      </div>
+                      <div class="arrow">
+                          <a href="#"><i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="column2 column">
+              <div class="inrow">
+                  <div class="iconframes">
+                      <i class="fas fa-mobile-alt fa-3x"></i>
+                  </div>
+                  <div class="title">
+                      <h2>Mobile applications</h2>
+                  </div>
+                  <div class="text">
+                      Mobile application development is one of our areas. Our experts are familiar with the features of each of the popular platforms
+                  </div>
+                  <div class="arrow">
+                      <a href="#"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+              <div class="inrow">
+                  <div class="iconframes">
+                     <i class="fas fa-crosshairs fa-3x"></i>
+                  </div>
+                  <div class="title">
+                      <h2>Website promotion</h2>
+                  </div>
+                  <div class="text">
+                       We have been promoting website in all popular search engines for many years, and during this time we have extensive experience
+                  </div>
+                  <div class="arrow">
+                      <a href="#"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+              <div class="inrow">
+                  <div class="iconframes">
+                      <i class="fas fa-bullhorn fa-3x"></i>
+                  </div>
+                  <div class="title">
+                      <h2>Contextual advertising</h2>
+                  </div>
+                  <div class="text">
+                      We'll set up advertising campaigns in Yandex Direct and Google Adworfs, or we will analyze and optimize already launched ones
+                  </div>
+                  <div class="arrow">
+                      <a href="#"><i class="fas fa-arrow-right"></i></a>
+                  </div>
+              </div>
+          </div>
+    </div>
+    
+    <div class="customer">
+      <div class="customertext">
+        <div class="htext">
+          <div class="htext1a">
+          <strong>Happy customers</strong>
+          </div>
+        <div class="htext1b">We cooperate with global brands</div>
+      </div>
+    </div>
+    <div class="rimage">
+      <div class="customerimage">
+        <div class="image1">
+          <div class="imagecolumn1">
+            <div class="imagerow1a"></div>
+            <div class="imagerow1b"></div>
+          </div>
+        <div class="imagecolumn2">
+          <div class="imagerow2a"></div>
+          <div class="imagerow2b"></div>
+        </div>
+        <div class="imagecolumn3">
+          <div class="imagerow3a"></div>
+          <div class="imagerow3b"></div>
+        </div>
+      </div>
+      <div class="image2">
+        <div class="image2a">
+          <div class="ltext">
+            <p>
+            <strong>The best web studio</strong> <br> 
+            <strong>in New York -</strong> according <br> to the magazine developer
+            </p>
+          </div>
+          <div class="ltext1">
+            <div class="ltext1a"></div>
+            <div class="ltext1b">
+              <p>
+              <strong>Richard Jacobson</strong> <br>
+              magazine editor
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+    <div class="inputname">
+      <div class="backgroudinput">
+      <div class="backgroud1">
+        <div class="t1">
+          <div class="rt">
+            <p>
+            <strong class="logintitle">10 +</strong> <br>
+            <p class="logintitle1">Years of success</p>
+            <p>World achievements in the field of Internet technologies are of great value to our business</p>
+            </p>
+          </div>
+          <div class="rt">
+            <p>
+            <strong class="logintitle">750  +</strong> <br>
+            <p class="logintitle1">Completed projects</p>
+            <p>Driven by innovation and human behavior, our web design agency is changing the way brands connect</p>
+            </p>
+          </div>
+        </div>
+        <div class="t2">
+          <div class="rt">
+            <p>
+            <strong class="logintitle">150  +</strong> <br>
+            <p class="logintitle1">Regular customers</p>
+            <p>Over the past year, we managed to collaborate with companies representing a wide variety</p>
+            </p>
+          </div>
+          <div class="rt">
+            <p>
+            <strong class="logintitle">500  +</strong> <br>
+            <p class="logintitle1">Positive reviews</p>
+            <p>We are always ready for dialogue on compromises, therefore we have the best customers and feedback</p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="login">
+      <p>
+      <strong class="logintitle">Get in touch</strong> <br>
+      <p class="logintitle1">Let's discuss your project right now</p>
+      </p>
+      <input class="namei" placeholder="Name"></input>
+      <input class="email" placeholder="E-mail"></input>
+      <input class="phone" placeholder="Phone"></input>
+      <input class="message" placeholder="Message"></input>
+      <input type="submit" class="send" value="SEND MESSAGE"></input>
+      </p>
+    </div>
+    </div>
+    
+    <div class="end">
+      <div class="endtext">
+        <p>
+          <strong class="endt">Our clients say</strong> <br>
+          <p class="endtt">Our clients value us and recommend</p>
+        </p>
+    </div>
+    <div class="ih">
+      <img src="analog.jpg" class="h">
+    </div>
+
+
+    <div class="fol">
+      <div class="infol">
+      <div class="follow">
+        <div class="foli">
+          <img src="./logo.png"/>
+        </div>
+        <p>Our web studio creates and promotes websites, we work for the result.</p>
+        <strong>Follow Us:</strong>
+        <div class="i1">
+          <i class="fab fa-facebook-f fa-1x"></i>
+          <i class="fab fa-instagram fa-1x"></i>
+          <i class="fab fa-linkedin-in fa-1x"></i>
+          <i class="fab fa-youtube fa-1x"></i>
+        </div>
+      </div>
+      <div class="discover">
+        <p>Discover</p>
+        <a href="#" class="st">Home</a>
+        <a href="#" class="st">Services</a>
+        <a href="#" class="st">Portfolio</a>
+        <a href="#" class="st">Elements</a>
+        <a href="#" class="st">About Us</a>
+      </div>
+      <div class="information">
+        <p>Information</p>
+        <a href="#" class="st">Company & Contact Info</a>
+        <a href="#" class="st">Blog & Articles</a>
+        <a href="#" class="st">Sitemap</a>
+        <a href="#" class="st">Terms of Service</a>
+        <a href="#" class="st">Privacy Policy</a>
+      </div>
+      <div class="help">
+        <p>Help & Support</p>
+        <a href="#" class="st">Live Chat</a>
+        <a href="#" class="st">FAQ</a>
+        <a href="#" class="st">How to Stay Safe</a>
+        <a href="#" class="st">Terms & Conditions</a>
+        <a href="#" class="st">Contact Us</a>
+      </div>
+      </div>
+      <div class="intextt">
+        <div class="intextt1">
+        <div class="po">
+          <p class="po1"><i class="far fa-copyright"></i> 2020 All rights reserved. Developed at SecretLab, theme stucy. Build with Atiframe.</p>
+        </div>
+        <div class="pi">
+          <i class="fab fa-cc-visa fa-1x"></i>
+          <i class="fab fa-cc-mastercard fa-1x"></i>
+          <i class="fab fa-cc-paypal fa-1x"></i>
+          <i class="fab fa-cc-stripe fa-1x"></i>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+    <p id="load">Firebase SDK Loading&hellip;</p>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
